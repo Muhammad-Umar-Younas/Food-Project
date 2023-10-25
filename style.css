@@ -1,0 +1,168 @@
+/* css reset  */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    /* margin-right: 70%; */
+    margin-left: 20px;
+    /* width: 10px; */
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    padding: 10px;
+    font-size: 1rem;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+/* hero styling */
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: white;
+    /* background-color: red; */
+    background: url('hero.jpeg') no-repeat center center/cover;
+}
+.content{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.para{
+    margin: 10px 0px;
+}
+.btn1{
+    /* text-align: center; */
+    /* position: relative; */
+    /* left: 50%; */
+    /* margin: auto; */
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(237, 111, 111);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+/* services styling */
+.services-section{
+margin-top: 20px;
+display: flex;
+justify-content: space-evenly;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.box{
+    height: 45vh;
+    width: 20vw;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1rem;
+}
+.img1{
+    width: 90px;
+    padding-top: 15px;
+}
+.first{
+    text-align: justify;
+    padding: 15px;
+}
+.first-heading{
+    padding-top: 5px;
+}
+
+/* client design  */
+.client{
+    height: 28vh;
+    /* background-color: red; */
+    margin-top: 20px;
+    background: url('cl.jpeg');
+    /* opacity: 0.3; */
+}
+.client h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 8px;
+}
+.logoss img{
+    height: 100px;
+    margin: 0px 20px;
+    padding-top: 20px;
+}
+.logoss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact{
+    height: 45vh;
+    background: url('form.jpeg') no-repeat center center/cover;
+}
+.contact h2{
+    text-align: center;
+    /* margin-top: 10px; */
+    padding-top: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 400px;
+}
+textarea{
+    width: 400px;
+}
+.btn2{
+    width: 380px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgb(237, 111, 111);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
